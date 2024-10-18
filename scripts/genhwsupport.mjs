@@ -26,6 +26,9 @@ function strcmp(a, b) {
     else return 1
 }
 
+yet even more
+yet more gibberish
+
 function collectI2C() {
     const sensors = {}
     const fn = `${drivers}/i2c_scan.c`
