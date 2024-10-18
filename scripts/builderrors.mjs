@@ -16,6 +16,9 @@ md.replace(/##\s+(?<name>.+)\s+\{#(?<id>[^}]+)\}/gi, _ => {
     return ""
 })
 
+adfadf
+
+just gibberish
 const fn = "./interop/src/errors.ts"
 const newTs = `// generated file, run scripts/builderrors.mjs to update
 export const errors: Record<string, string> = ${JSON.stringify(
